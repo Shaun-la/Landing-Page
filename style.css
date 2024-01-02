@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+}
+
+button {
+    background-color: #3882f6;
+   
+    color: white;
+    height: 25px;
+    width: 75px;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 0px 30px 0px 0px;
+    justify-content: center;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    margin: 0px 8px;
+}
+.left { display: flex;
+    padding: 0px 0px 0px 10px;
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 400px;
+}
+
+.right {display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+ p {
+    width: 300px;
+    font-size: 18px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 50px;
+
+
+}
+a {
+    text-decoration: none !important;
+    color: #F9FAF8;
+}
+
+header {
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 20px 0px;
+}
+.card {
+    border: 5px #3882f6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 12px;
+    width: 100px;
+    height: 100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 0px 50px;
+} 
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.subtext {
+    width: 100px;
+}
+
+.thor {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(220, 13%, 91%);
+    margin-bottom: 50px;
+    padding: 10px 420px;
+    flex-shrink: 1;
+    
+}
+
+.quote {
+    color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.two {
+    margin: 0px 0px 0px 450px;
+
+}
+
+.action {
+    display: flex;
+   border: #3882f6;
+   border-radius: 12px;
+   border-width: 1px;
+   border-style: solid;
+   
+    color: #F9FAF8;
+    background-color: #3882f6;
+    padding: 20px 20%;
+    margin-bottom: 50px;
+
+
+}
+
+.para {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
